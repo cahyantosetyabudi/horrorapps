@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Horror Apps</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!--
+    <string name="action_settings">Settings</string>
+    //-->
+    <string name="text_story">Pas di hari jumat 25 maret 2016 sore hari dengan cuaca yang mendung sekitar jam 4 lebihan saya bersama teman2 saya ngeriung rumpitacin dilorong hardware ngalampar, tak lama kemudian saya dengan fahmipun mau pamit pulang karna takut keburu turun ujan. Eh malah digeroin lagi sm si dodeng kalem atuh deng meni hayang gancang balik , hahh... ucap saya dlm hati puguh aing pengen balik ge da sieun huwab bawa sungut lapar!
+                            Lanjut lagi sj ngobrol2 ngomong wae sidodeng bari ngebayangin coba ada cwenya didieu sarua ngiuhan , jawab si amari ngomong enya dengnya mun awewe gelis nyamperkeun deuk ditanya moal ?
+    </string>
+    <string name="text_story1">
+        Dodeng : enya enyalah langsung kurang taros
+        Amaris : Mun awewena geulis tapi bau awak ?
+        Dodeng : bae tinggal di moltoan heula weh meh sengit
+        Amaris : mun awewena geus mah goreng bau awak kumaha ?
+        Dodeng : mun kitu mah bentar ku gel
+    </string>
+</resources>

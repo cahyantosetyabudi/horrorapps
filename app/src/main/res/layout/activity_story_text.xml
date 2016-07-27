@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#FFFFFF"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="unikom.codelabs.or.id.testnavigation.StoryText">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/label_Story"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/label_Story"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Story 1"
+                android:textAlignment="center"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/label_Chapter"
+                android:layout_below="@id/label_Story"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chapter 1"
+                android:textAlignment="center"
+                android:textSize="18dp"/>
+
+            <ImageView
+                android:id="@+id/image_top"
+                android:paddingTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/halloween"
+                android:layout_below="@id/label_Chapter" />
+
+            <com.bluejamesbond.text.DocumentView
+                app:documentView_insetPaddingTop="10dp"
+                app:documentView_insetPaddingRight="10dp"
+                app:documentView_text="@string/text_story"
+                app:documentView_textAlignment="justified"
+                android:paddingTop="10dp"
+                android:layout_below="@id/image_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <com.bluejamesbond.text.DocumentView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:documentView_text="@string/text_story1"
+                app:documentView_textAlignment="left"
+                >
+            </com.bluejamesbond.text.DocumentView>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

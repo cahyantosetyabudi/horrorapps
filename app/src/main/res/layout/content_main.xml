@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/rumah_hantu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="unikom.codelabs.or.id.testnavigation.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <!--
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/hantu"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+        //-->
+    <TextView
+        android:id="@+id/label_apps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="unikom"
+        android:textSize="45sp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+    <TextView
+        android:id="@+id/label_apps2"
+        android:layout_below="@id/label_apps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="horror stories"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:paddingLeft="50sp"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/label_hotStory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hot Stories"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:paddingTop="140dp"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:layout_below="@id/label_hotStory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:paddingTop="50dp"/>
+
+    <Button
+        android:background="@android:color/transparent"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show All Stories"
+        android:id="@+id/button_showAll"
+        android:textSize="15dp"
+        android:layout_alignBottom="@+id/listView"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
